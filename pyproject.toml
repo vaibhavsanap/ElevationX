@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "elevationx"
+version = "0.1.0"
+description = "Electric vehicle range prediction based on terrain and elevation data."
+authors = ["Your Name vsanap5001@gmail.com"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.103.0"
+uvicorn = "^0.23.0"
+requests = "^2.31.0"
+numpy = "^1.24.0"
+pandas = "^1.5.3"
+scikit-learn = "^1.2.2"
+googlemaps = "^4.10.0"
+pydantic = "^2.0.0"
+
+[poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
